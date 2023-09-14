@@ -1,0 +1,80 @@
+
+.listeCours {
+  margin: 0 auto;
+}
+
+    table.listeCours {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    table.listeCours th,
+    table.listeCours td {
+        padding: 6px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+    
+    table.listeCours th {
+        background-color: #f2f2f2;
+    }
+    
+    #bandeau ul li
+{
+    display: inline-block; 
+    float: right;
+    margin:0 5px;
+    color: white;
+}
+
+#bandeau
+{
+    width: 100%;
+    background-color:#0079be;
+    height: 3.75em;
+    color: white;
+}
+#tableChoix
+{
+   
+    text-align: center;
+    margin-left: 150px;
+    float: left;
+    margin-top: 10px;
+}
+
+#table
+{
+   
+    margin-top: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+#tableChoix th
+{
+   padding: 6px;
+   text-align: left;
+   border: 1px solid #ddd;
+   background-color: #f2f2f2;
+  
+  
+}
+
+
+#table, #tableChoix {
+  flex: 1;
+  margin-right:80px;
+  
+}
+
+#buton
+{
+   margin-top: 40px;
+}
+#tableChoix input[type="checkbox"] {
+  margin-bottom: 17px;
+}
+
